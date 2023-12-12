@@ -1,7 +1,7 @@
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     for (let index = 0; index < 6; index++) {
         basic.pause(10000)
-        music.playTone(262, music.beat(BeatFraction.Breve))
+        music.playTone(262, music.beat(BeatFraction.Whole))
         basic.setLedColor(0xff0000)
         basic.clearScreen()
     }
