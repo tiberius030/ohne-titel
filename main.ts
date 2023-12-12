@@ -4,6 +4,12 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
         music.playTone(262, music.beat(BeatFraction.Whole))
     }
 })
+input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
+    for (let index = 0; index < 240; index++) {
+        basic.pause(10000)
+        music.playTone(262, music.beat(BeatFraction.Whole))
+    }
+})
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     for (let index = 0; index < 60; index++) {
         basic.pause(10000)
