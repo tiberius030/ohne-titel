@@ -7,7 +7,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     }
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
-    for (let index = 0; index < 240; index++) {
+    for (let index = 0; index < 600; index++) {
         basic.pause(10000)
         music.playTone(262, music.beat(BeatFraction.Whole))
         basic.setLedColor(0xff0000)
